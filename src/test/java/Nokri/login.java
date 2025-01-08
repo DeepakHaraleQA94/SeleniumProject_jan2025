@@ -12,7 +12,7 @@ public class login {
 		driver.manage().window().maximize();
 		driver.get("abc.pdf");
 	Thread.sleep(3000);
-		driver.findElement(By.id("usernameField")).sendKeys("haraledeepak84@gmail.com");
+		driver.findElement(By.id("usernameField")).sendKeys("Admin@gmail.com");
 		driver.findElement(By.id("passwordField")).sendKeys("Admin@123");
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[text()='Login']")).click();
@@ -25,7 +25,7 @@ public class login {
 		Thread.sleep(6000);
 		driver.findElement(By.id("saveBasicDetailsBtn")).click();
 		Thread.sleep(6000);
-//		driver.findElement(By.xpath("//input[@value='Update resume']")).sendKeys("C:\\Users\\Sarvadnya\\OneDrive\\Desktop\\latest resume\\Deepak_3years_Automation.pdf");
+//		driver.findElement(By.xpath("//input[@value='Update resume']")).sendKeys("abc.pdf");
 		 driver.findElement(By.xpath("(//span[text()='editOneTheme'])[2]")).click();
 		 Thread.sleep(6000);
 		 driver.findElement(By.xpath("//button[text()='Save']")).click();
