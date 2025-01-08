@@ -10,7 +10,7 @@ public class login {
 	public void test() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.naukri.com/mnjuser/homepage?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Login_Register");
+		driver.get("abc.pdf");
 	Thread.sleep(3000);
 		driver.findElement(By.id("usernameField")).sendKeys("haraledeepak84@gmail.com");
 		driver.findElement(By.id("passwordField")).sendKeys("Admin@123");
