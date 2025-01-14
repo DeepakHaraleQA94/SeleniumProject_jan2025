@@ -11,7 +11,7 @@ public class login {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("abc.pdf");
-	Thread.sleep(3000);
+		Thread.sleep(3000);
 		driver.findElement(By.id("usernameField")).sendKeys("Admin@gmail.com");
 		driver.findElement(By.id("passwordField")).sendKeys("Admin@123");
 		Thread.sleep(3000);

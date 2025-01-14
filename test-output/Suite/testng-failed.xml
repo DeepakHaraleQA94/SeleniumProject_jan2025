@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browserName" value="firefox"/>
     <classes>
-      <class name="TestNgframework.ClassA">
+      <class name="CrossBrowserTesting.crossBrowser">
         <methods>
-          <include name="TC7"/>
-          <include name="TC8"/>
-          <include name="TC5"/>
+          <include name="test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- TestNgframework.ClassA -->
+      </class> <!-- CrossBrowserTesting.crossBrowser -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

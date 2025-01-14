@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgframework.TestNgKeyword">
+      <class name="testPage.HomeTestPage">
         <methods>
-          <include name="Logout"/>
-          <include name="Login"/>
+          <include name="setUp"/>
+          <include name="validateHomePage"/>
         </methods>
-      </class> <!-- TestNgframework.TestNgKeyword -->
+      </class> <!-- testPage.HomeTestPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
